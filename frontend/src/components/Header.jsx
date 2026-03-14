@@ -1,12 +1,24 @@
-import React, { useState, useRef, useEffect, useMemo } from "react";
-import { 
-  Search, Bell, Menu, X, User, Settings, LogOut, 
-  ShieldCheck, Flame, BookOpen, Trophy, Calendar, Clock, 
-  ArrowRight, Activity, Award, Star, CheckCircle
+import React, { useState, useRef, useEffect, useMemo, useCallback } from "react";
+import {
+  Search,
+  Bell,
+  Menu,
+  X,
+  User,
+  Settings,
+  LogOut,
+  ShieldCheck,
+  Flame,
+  BookOpen,
+  Trophy,
+  Calendar,
+  Clock,
+  ArrowRight,
+  Activity,
+  Award,
+  Star,
+  CheckCircle,
 } from "lucide-react";
-
-import React, { useState, useRef, useEffect, useCallback } from "react";
-import { Search, Bell, Menu, X, User, Settings, LogOut, ShieldCheck } from "lucide-react";
 import { useAuth } from "../context/AuthContext";
 import { useNavigate } from "react-router-dom";
 import ThemeToggle from "../components/common/ThemeToggle";
@@ -133,19 +145,19 @@ const Header = ({ searchQuery = "", onSearchChange }) => {
 
     // If more than 24 hours but less than 48 hours: INCREMENT
     if (diffInHours >= 24 && diffInHours <= 48) {
-      updateProfile({
+      updateUser({
         streakCount: (user.streakCount || 0) + 1,
         lastLoginDate: now.toISOString()
       });
     } 
     // If more than 48 hours: RESET to 1 (starting a new streak)
     else if (diffInHours > 48) {
-      updateProfile({
+      updateUser({
         streakCount: 1,
         lastLoginDate: now.toISOString()
       });
     }
-  }, [user, updateProfile]);
+  }, [user, updateUser]);
 
   const handleLogout = () => setShowLogoutConfirm(true);
 
@@ -500,23 +512,21 @@ const Header = ({ searchQuery = "", onSearchChange }) => {
                     <ShieldCheck className="w-3 h-3" /> <span>Verified Profile</span>
                   </div>
                 </div>
-
-                <div className="p-3 text-left">
-                  <button onClick={() => { navigate("/settings"); setDropdownOpen(false); }} className="flex items-center w-full px-4 py-3.5 text-xs font-bold text-main hover:bg-teal-500 hover:text-white rounded-[1.2rem] transition-all group">
-                    <User className="mr-3 w-4 h-4 group-hover:scale-110 transition-transform" /> {t("nav.profile")}
-                  </button>
-                  <button onClick={() => { navigate("/settings"); setDropdownOpen(false); }} className="flex items-center w-full px-4 py-3.5 text-xs font-bold text-main hover:bg-teal-500 hover:text-white rounded-[1.2rem] transition-all group mt-1">
-                    <Settings className="mr-3 w-4 h-4 group-hover:rotate-45 transition-transform" /> {t("nav.settings")}
-                  </button>
-
-                  <div className="my-2 border-t border-border/50 mx-2" />
-
-                  <button onClick={handleLogout} className="flex items-center w-full px-4 py-3.5 text-xs font-black text-red-500 hover:bg-red-500 hover:text-white rounded-[1.2rem] transition-all group">
-                    <LogOut className="mr-3 w-4 h-4 group-hover:translate-x-1 transition-transform" /> {t("auth.logout")}
-                  </button>
-
-                </div>
               ))}
+            </div>
+            <div className="p-3 text-left">
+              <button onClick={() => { navigate("/settings"); setDropdownOpen(false); }} className="flex items-center w-full px-4 py-3.5 text-xs font-bold text-main hover:bg-teal-500 hover:text-white rounded-[1.2rem] transition-all group">
+                <User className="mr-3 w-4 h-4 group-hover:scale-110 transition-transform" /> {t("nav.profile")}
+              </button>
+              <button onClick={() => { navigate("/settings"); setDropdownOpen(false); }} className="flex items-center w-full px-4 py-3.5 text-xs font-bold text-main hover:bg-teal-500 hover:text-white rounded-[1.2rem] transition-all group mt-1">
+                <Settings className="mr-3 w-4 h-4 group-hover:rotate-45 transition-transform" /> {t("nav.settings")}
+              </button>
+
+              <div className="my-2 border-t border-border/50 mx-2" />
+
+              <button onClick={handleLogout} className="flex items-center w-full px-4 py-3.5 text-xs font-black text-red-500 hover:bg-red-500 hover:text-white rounded-[1.2rem] transition-all group">
+                <LogOut className="mr-3 w-4 h-4 group-hover:translate-x-1 transition-transform" /> {t("auth.logout")}
+              </button>
             </div>
             <button onClick={() => setShowBadgeModal(false)} className="w-full py-4 rounded-2xl bg-main text-card text-[10px] font-black uppercase tracking-widest hover:opacity-90 transition-all cursor-pointer">
               Got it!
