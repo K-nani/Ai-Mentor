@@ -619,7 +619,7 @@ export default function Learning() {
       return;
     }
     else{
-      toast.error("first watch video.");
+      toast.error("Please watch the video before continuing.");
     }
   };
 
