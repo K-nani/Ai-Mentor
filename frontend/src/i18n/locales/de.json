@@ -266,5 +266,54 @@
     "email": "E-Mail",
     "password": "Passwort",
     "logout": "Abmelden"
+  },
+  "preferences": {
+    "nav_title": "Einstellungen",
+    "modal_title": "Personalisieren Sie Ihre Erfahrung",
+    "modal_subtitle": "Nur 5 kurze Fragen für den Anfang",
+    "settings_modal_subtitle": "Gestalten Sie Ihre Lernerfahrung ganz nach Ihren Bedürfnissen.",
+    "save_continue": "Weiter →",
+    "save_changes": "Fertig",
+    "save_success": "Einstellungen erfolgreich aktualisiert",
+    "step_of": "{{current}} / {{total}}",
+    "next": "Weiter →",
+    "back": "← Zurück",
+    "finish": "Fertig",
+    "skip_for_now": "Vorerst überspringen - Ich werde das später einrichten",
+    "questions": {
+      "learning_goal": "Was ist Ihr wichtigstes Lernziel?",
+      "interested_topics": "Welche Themen interessieren Sie am meisten?",
+      "experience_level": "Wie viel Erfahrung haben Sie?",
+      "weekly_commitment": "Wie viele Stunden pro Woche können Sie aufwenden?",
+      "learning_style": "Was ist Ihr bevorzugter Lernstil?"
+    },
+    "hints": {
+      "select_one": "Wählen Sie eine Option",
+      "select_multiple": "Wählen Sie alles Zutreffende"
+    },
+    "options": {
+      "switch_careers": "Karrierewechsel",
+      "upskill_work": "Weiterbildung im Beruf",
+      "personal_interest": "Persönliches Interesse",
+      "get_certified": "Zertifizierung erhalten",
+      "ai": "Künstliche Intelligenz",
+      "web_dev": "Webentwicklung",
+      "data_science": "Datenwissenschaft",
+      "cloud": "Cloud-Computing",
+      "cybersecurity": "Cybersicherheit",
+      "mobile_apps": "Mobile Apps",
+      "beginner": "Völliger Anfänger",
+      "basics": "Einige Grundlagen",
+      "intermediate": "Mittelschwer",
+      "advanced": "Fortgeschritten",
+      "1_2_hours": "1–2 Stunden",
+      "3_5_hours": "3–5 Stunden",
+      "6_10_hours": "6–10 Stunden",
+      "10_plus_hours": "10+ Stunden",
+      "videos": "Videovorträge",
+      "projects": "Praktische Projekte",
+      "articles": "Artikel lesen",
+      "live_classes": "Live-Klassen"
+    }
   }
 }

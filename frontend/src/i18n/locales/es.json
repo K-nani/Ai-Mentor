@@ -266,5 +266,54 @@
     "email": "Correo Electrónico",
     "password": "Contraseña",
     "logout": "Cerrar Sesión"
+  },
+  "preferences": {
+    "nav_title": "Preferencias",
+    "modal_title": "Personaliza tu experiencia",
+    "modal_subtitle": "Solo 5 preguntas rápidas para comenzar",
+    "settings_modal_subtitle": "Adapta tu experiencia de aprendizaje a tu forma de aprender.",
+    "save_continue": "Siguiente →",
+    "save_changes": "Finalizar",
+    "save_success": "Preferencias actualizadas con éxito",
+    "step_of": "{{current}} / {{total}}",
+    "next": "Siguiente →",
+    "back": "← Atrás",
+    "finish": "Finalizar",
+    "skip_for_now": "Omitir por ahora — Lo configuraré después",
+    "questions": {
+      "learning_goal": "¿Cuál es tu principal objetivo de aprendizaje?",
+      "interested_topics": "¿Qué temas te interesan más?",
+      "experience_level": "¿Cuánta experiencia tienes?",
+      "weekly_commitment": "¿Cuántas horas por semana puedes dedicar?",
+      "learning_style": "¿Cuál es tu estilo de aprendizaje preferido?"
+    },
+    "hints": {
+      "select_one": "Selecciona una opción",
+      "select_multiple": "Selecciona todas las que apliquen"
+    },
+    "options": {
+      "switch_careers": "Cambio de carrera",
+      "upskill_work": "Mejorar habilidades",
+      "personal_interest": "Interés personal",
+      "get_certified": "Obtener certificación",
+      "ai": "Inteligencia Artificial",
+      "web_dev": "Desarrollo Web",
+      "data_science": "Ciencia de Datos",
+      "cloud": "Computación en la nube",
+      "cybersecurity": "Ciberseguridad",
+      "mobile_apps": "Aplicaciones móviles",
+      "beginner": "Principiante absoluto",
+      "basics": "Conceptos básicos",
+      "intermediate": "Intermedio",
+      "advanced": "Avanzado",
+      "1_2_hours": "1-2 horas",
+      "3_5_hours": "3-5 horas",
+      "6_10_hours": "6-10 horas",
+      "10_plus_hours": "10+ horas",
+      "videos": "Clases en video",
+      "projects": "Proyectos prácticos",
+      "articles": "Lectura de artículos",
+      "live_classes": "Clases en vivo"
+    }
   }
 }

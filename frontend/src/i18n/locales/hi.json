@@ -266,5 +266,54 @@
     "email": "ईमेल",
     "password": "पासवर्ड",
     "logout": "लॉगआउट"
+  },
+  "preferences": {
+    "nav_title": "प्राथमिकताएं",
+    "modal_title": "अपना अनुभव अनुकूलित करें",
+    "modal_subtitle": "शुरू करने के लिए बस 5 प्रश्न",
+    "settings_modal_subtitle": "अपने सीखने के तरीके के अनुसार अपना अनुभव अनुकूलित करें।",
+    "save_continue": "अगला →",
+    "save_changes": "पूर्ण",
+    "save_success": "प्राथमिकताएं सफलतापूर्वक अपडेट की गईं",
+    "step_of": "{{current}} / {{total}}",
+    "next": "अगला →",
+    "back": "← पीछे",
+    "finish": "पूर्ण",
+    "skip_for_now": "अभी छोड़ें - मैं इसे बाद में सेट करूंगा",
+    "questions": {
+      "learning_goal": "आपका मुख्य सीखने का लक्ष्य क्या है?",
+      "interested_topics": "किन विषयों में आपकी सबसे अधिक रुचि है?",
+      "experience_level": "आपको कितना अनुभव है?",
+      "weekly_commitment": "आप प्रति सप्ताह कितने घंटे दे सकते हैं?",
+      "learning_style": "आपकी सीखने की पसंदीदा शैली क्या है?"
+    },
+    "hints": {
+      "select_one": "एक विकल्प चुनें",
+      "select_multiple": "लागू होने वाले सभी का चयन करें"
+    },
+    "options": {
+      "switch_careers": "करियर बदलें",
+      "upskill_work": "काम पर कौशल बढ़ाएं",
+      "personal_interest": "व्यक्तिगत रुचि",
+      "get_certified": "प्रमाणपत्र प्राप्त करें",
+      "ai": "आर्टिफिशियल इंटेलिजेंस",
+      "web_dev": "वेब डेवलपमेंट",
+      "data_science": "डेटा साइंस",
+      "cloud": "क्लाउड कंप्यूटिंग",
+      "cybersecurity": "साइबर सुरक्षा",
+      "mobile_apps": "मोबाइल एप्स",
+      "beginner": "बिल्कुल शुरुआत",
+      "basics": "कुछ बुनियादी जानकारी",
+      "intermediate": "मध्यम दर्जे का",
+      "advanced": "उन्नत",
+      "1_2_hours": "1-2 घंटे",
+      "3_5_hours": "3-5 घंटे",
+      "6_10_hours": "6-10 घंटे",
+      "10_plus_hours": "10+ घंटे",
+      "videos": "वीडियो लेक्चर",
+      "projects": "प्रैक्टिकल प्रोजेक्ट्स",
+      "articles": "लेख पढ़ना",
+      "live_classes": "लाइव कक्षाएं"
+    }
   }
 }

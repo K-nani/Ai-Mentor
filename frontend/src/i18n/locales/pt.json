@@ -266,5 +266,54 @@
     "email": "E-mail",
     "password": "Senha",
     "logout": "Sair"
+  },
+  "preferences": {
+    "nav_title": "Preferências",
+    "modal_title": "Personalize sua experiência",
+    "modal_subtitle": "Apenas 5 perguntas rápidas para começar",
+    "settings_modal_subtitle": "Adapte sua experiência de aprendizado da maneira que for melhor para você.",
+    "save_continue": "Próximo →",
+    "save_changes": "Finalizar",
+    "save_success": "Preferências atualizadas com sucesso",
+    "step_of": "{{current}} / {{total}}",
+    "next": "Próximo →",
+    "back": "← Voltar",
+    "finish": "Finalizar",
+    "skip_for_now": "Pular por enquanto - vou configurar depois",
+    "questions": {
+      "learning_goal": "Qual é o seu objetivo de aprendizado?",
+      "interested_topics": "Quais tópicos mais lhe interessam?",
+      "experience_level": "Quanta experiência você tem?",
+      "weekly_commitment": "Quantas horas por semana você pode dedicar?",
+      "learning_style": "Qual é o seu estilo preferido?"
+    },
+    "hints": {
+      "select_one": "Selecione uma opção",
+      "select_multiple": "Selecione todas as opções que se aplicam"
+    },
+    "options": {
+      "switch_careers": "Mudar de Carreira",
+      "upskill_work": "Aprimorar Habilidades",
+      "personal_interest": "Interesse Pessoal",
+      "get_certified": "Obter Certificado",
+      "ai": "Inteligência Artificial",
+      "web_dev": "Desenvolvimento Web",
+      "data_science": "Ciência de Dados",
+      "cloud": "Computação em Nuvem",
+      "cybersecurity": "Cibersegurança",
+      "mobile_apps": "Aplicativos Móveis",
+      "beginner": "Iniciante",
+      "basics": "Noções Básicas",
+      "intermediate": "Intermediário",
+      "advanced": "Avançado",
+      "1_2_hours": "1-2 horas",
+      "3_5_hours": "3-5 horas",
+      "6_10_hours": "6-10 horas",
+      "10_plus_hours": "10+ horas",
+      "videos": "Videoaulas",
+      "projects": "Projetos Práticos",
+      "articles": "Leitura de Artigos",
+      "live_classes": "Aulas ao Vivo"
+    }
   }
 }

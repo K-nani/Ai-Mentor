@@ -266,5 +266,54 @@
     "email": "电子邮件",
     "password": "密码",
     "logout": "退出登录"
+  },
+  "preferences": {
+    "nav_title": "偏好设置",
+    "modal_title": "個性化您的体验",
+    "modal_subtitle": "只需5个简单问题即可开始",
+    "settings_modal_subtitle": "根据您最佳的学习方式定制体验。",
+    "save_continue": "下一步 →",
+    "save_changes": "完成",
+    "save_success": "偏好已成功更新",
+    "step_of": "{{current}} / {{total}}",
+    "next": "下一步 →",
+    "back": "← 返回",
+    "finish": "完成",
+    "skip_for_now": "暂时跳过 — 以後再说",
+    "questions": {
+      "learning_goal": "您的主要学习目标是什么？",
+      "interested_topics": "您对哪些主题最感兴趣？",
+      "experience_level": "您有多少相关经验？",
+      "weekly_commitment": "您每周可以投入多少小时？",
+      "learning_style": "您首选的学习方式是什么？"
+    },
+    "hints": {
+      "select_one": "选择一个选项",
+      "select_multiple": "选择所有适用的项"
+    },
+    "options": {
+      "switch_careers": "转行",
+      "upskill_work": "提升工作技能",
+      "personal_interest": "个人兴趣",
+      "get_certified": "获取认证",
+      "ai": "人工智能",
+      "web_dev": "Web 开发",
+      "data_science": "数据科学",
+      "cloud": "云计算",
+      "cybersecurity": "网络安全",
+      "mobile_apps": "移动应用程序",
+      "beginner": "零基础初学者",
+      "basics": "一些基础知识",
+      "intermediate": "中级",
+      "advanced": "高级",
+      "1_2_hours": "1-2 小时",
+      "3_5_hours": "3-5 小时",
+      "6_10_hours": "6-10 小时",
+      "10_plus_hours": "10 小时以上",
+      "videos": "视频课程",
+      "projects": "实践项目",
+      "articles": "阅读文章",
+      "live_classes": "直播课程"
+    }
   }
 }

@@ -266,5 +266,54 @@
     "email": "البريد الإلكتروني",
     "password": "كلمة المرور",
     "logout": "تسجيل الخروج"
+  },
+  "preferences": {
+    "nav_title": "التفضيلات",
+    "modal_title": "إضفاء الطابع الشخصي على تجربتك",
+    "modal_subtitle": "إليك 5 أسئلة سريعة للبدء",
+    "settings_modal_subtitle": "قم بتخصيص تجربة التعلم الخاصة بك لتتناسب مع الطريقة الأفضل لتعلمك.",
+    "save_continue": "التالي →",
+    "save_changes": "إنهاء",
+    "save_success": "تم تحديث التفضيلات بنجاح",
+    "step_of": "{{current}} / {{total}}",
+    "next": "التالي →",
+    "back": "← رجوع",
+    "finish": "إنهاء",
+    "skip_for_now": "تخطي الآن — سأقوم بإعداد هذا لاحقًا",
+    "questions": {
+      "learning_goal": "ما هو هدفك الرئيسي من التعلم؟",
+      "interested_topics": "ما هي المواضيع التي تهمك أكثر؟",
+      "experience_level": "ما هو مستوى خبرتك؟",
+      "weekly_commitment": "كم عدد الساعات التي يمكنك تخصيصها أسبوعيًا؟",
+      "learning_style": "ما هو أسلوب التعلم المفضل لديك؟"
+    },
+    "hints": {
+      "select_one": "اختر خيارًا واحدًا",
+      "select_multiple": "حدد كل ما ينطبق"
+    },
+    "options": {
+      "switch_careers": "تغيير المهنة",
+      "upskill_work": "صقل المهارات في العمل",
+      "personal_interest": "اهتمام شخصي",
+      "get_certified": "الحصول على شهادة",
+      "ai": "الذكاء الاصطناعي",
+      "web_dev": "تطوير الويب",
+      "data_science": "علم البيانات",
+      "cloud": "الحوسبة السحابية",
+      "cybersecurity": "الأمن السيبراني",
+      "mobile_apps": "تطبيقات الهاتف الذكي",
+      "beginner": "مبتدئ تمامًا",
+      "basics": "بعض الأساسيات",
+      "intermediate": "متوسط",
+      "advanced": "متقدم",
+      "1_2_hours": "1-2 ساعات",
+      "3_5_hours": "3-5 ساعات",
+      "6_10_hours": "6-10 ساعات",
+      "10_plus_hours": "10+ ساعات",
+      "videos": "محاضرات فيديو",
+      "projects": "مشاريع عملية",
+      "articles": "قراءة مقالات",
+      "live_classes": "فصول مباشرة"
+    }
   }
 }

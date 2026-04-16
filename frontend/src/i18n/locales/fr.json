@@ -266,5 +266,54 @@
     "email": "E-mail",
     "password": "Mot de Passe",
     "logout": "Déconnexion"
+  },
+  "preferences": {
+    "nav_title": "Préférences",
+    "modal_title": "Personnalisez votre expérience",
+    "modal_subtitle": "Juste 5 questions rapides pour commencer",
+    "settings_modal_subtitle": "Adaptez votre expérience d'apprentissage à votre façon d'apprendre.",
+    "save_continue": "Suivant →",
+    "save_changes": "Terminer",
+    "save_success": "Préférences mises à jour avec succès",
+    "step_of": "{{current}} / {{total}}",
+    "next": "Suivant →",
+    "back": "← Retour",
+    "finish": "Terminer",
+    "skip_for_now": "Ignorer pour le moment — Je configurerai ça plus tard",
+    "questions": {
+      "learning_goal": "Quel est votre principal objectif d'apprentissage ?",
+      "interested_topics": "Quels sujets vous intéressent le plus ?",
+      "experience_level": "Quel est votre niveau d'expérience ?",
+      "weekly_commitment": "Combien d'heures par semaine pouvez-vous consacrer ?",
+      "learning_style": "Quel est votre style d'apprentissage préféré ?"
+    },
+    "hints": {
+      "select_one": "Sélectionnez une option",
+      "select_multiple": "Sélectionnez toutes les réponses."
+    },
+    "options": {
+      "switch_careers": "Changement de carrière",
+      "upskill_work": "Perfectionnement prof.",
+      "personal_interest": "Intérêt personnel",
+      "get_certified": "Obtenir une certification",
+      "ai": "Intelligence Artificielle",
+      "web_dev": "Développement Web",
+      "data_science": "Science des données",
+      "cloud": "Cloud Computing",
+      "cybersecurity": "Cybersécurité",
+      "mobile_apps": "Applications mobiles",
+      "beginner": "Débutant complet",
+      "basics": "Quelques bases",
+      "intermediate": "Intermédiaire",
+      "advanced": "Avancé",
+      "1_2_hours": "1-2 heures",
+      "3_5_hours": "3-5 heures",
+      "6_10_hours": "6-10 heures",
+      "10_plus_hours": "Plus de 10 heures",
+      "videos": "Cours en vidéo",
+      "projects": "Projets pratiques",
+      "articles": "Lecture d'articles",
+      "live_classes": "Cours en direct"
+    }
   }
 }
