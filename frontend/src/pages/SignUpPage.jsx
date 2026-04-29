@@ -14,7 +14,7 @@ const FormInput = ({ label, type, placeholder, value, onChange,leftElement, righ
       <label className="block text-xs font-medium text-gray-700 dark:text-gray-300 mb-1.5">
         {label}
       </label>
-      <div className="relative">
+      <div className="relative group">
         {leftElement && (
           <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
             {leftElement}
@@ -22,7 +22,7 @@ const FormInput = ({ label, type, placeholder, value, onChange,leftElement, righ
         )}
       <input
         type={type}
-        className="w-full pl-10 px-3 py-2 rounded-lg bg-gray-50 border border-gray-200 text-sm text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#00BEA5] focus:border-transparent transition-all dark:bg-[#0f172a] dark:border-gray-700 dark:text-white dark:placeholder-gray-500"
+        className={`${leftElement ? "pl-10" :""} w-full px-3 py-2 rounded-lg bg-gray-50 border border-gray-200 text-sm text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#00BEA5] focus:border-transparent transition-all dark:bg-[#0f172a] dark:border-gray-700 dark:text-white dark:placeholder-gray-500`}
         placeholder={placeholder}
         value={value}
         onChange={onChange}
@@ -174,10 +174,10 @@ const SignUpPage = () => {
           <label className="block text-xs font-medium text-gray-700 dark:text-gray-300 mb-1.5">
             Create a Password
           </label>
-          <div className="relative">
+          <div className="relative group">
             {/* LEFT ICON */}
             <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-              <Lock className="h-5 w-5 text-gray-400" />
+              <Lock className="h-5 w-5 group-focus-within:text-teal-500 text-gray-400" />
             </div>
             <input
               type={showPassword ? "text" : "password"}

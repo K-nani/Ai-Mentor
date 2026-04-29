@@ -1,6 +1,5 @@
 import React from "react";
 import logo from "../../assets/images/logo.png";
-import hero from "../../assets/images/hero-img.jpg";
 import ThemeToggle from "../common/ThemeToggle";
 
 const AuthLayout = ({ children, title, subtitle }) => {
@@ -9,7 +8,7 @@ const AuthLayout = ({ children, title, subtitle }) => {
 
          <div className="absolute top-0 left-0 right-0 z-50 flex items-center justify-between px-8 py-6">
              {/*logo */}
-             <img src={logo} alt="UptoSkills" class="h-10"/>
+             <img src={logo} alt="UptoSkills" className="h-10"/>
              
               {/* 🔥 UNIVERSAL THEME TOGGLE (TOP-RIGHT) */}
               <ThemeToggle />

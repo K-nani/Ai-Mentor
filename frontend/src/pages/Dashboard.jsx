@@ -22,7 +22,6 @@ import {
   Award,
 } from "lucide-react";
 import Preferences from "../components/Preferences";
-import API_BASE_URL from "../lib/api";
 
 const Dashboard = () => {
   const { t } = useTranslation();
@@ -49,7 +48,7 @@ const Dashboard = () => {
         const [coursesRes, statsRes,res] = await Promise.all([
           fetch("/api/courses", { headers }),
           fetch("/api/courses/stats/cards", { headers }),
-          fetch(`${API_BASE_URL}/api/certificate/list`, {headers}),
+          fetch("/api/certificate/list", {headers}),
         ]);
 
         if (res.ok) {
@@ -96,7 +95,7 @@ const Dashboard = () => {
       return [
         {
           icon: <Play className="w-5 h-5 text-blue-600" />,
-          value: data?.stats.inProgress,
+          value: data?.stats?.inProgress ?? 0,
           label: "Ongoing Courses",
           change: "+0%",
           bgColor: "bg-blue-50",
@@ -104,7 +103,7 @@ const Dashboard = () => {
         },
         {
           icon: <CheckCircle className="w-5 h-5 text-green-600" />,
-          value: data?.stats.completed,
+          value: data?.stats?.completed ?? 0,
           label: "Completed",
           change: "+0",
           bgColor: "bg-green-50",
@@ -112,7 +111,7 @@ const Dashboard = () => {
         },
         {
           icon: <Award className="w-5 h-5 text-purple-600" />,
-          value:data?.stats.certificatesEarned,
+          value:data?.stats?.certificatesEarned ?? 0,
           label: "Certificates",
           change: "+0",
           bgColor: "bg-purple-50",

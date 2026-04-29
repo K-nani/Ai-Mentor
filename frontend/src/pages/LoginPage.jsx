@@ -11,7 +11,7 @@ const FormInput = ({ label, type, placeholder, value, onChange, leftElement, rig
   return (
     <div className="mb-3">
       <label className="block text-xs font-medium text-gray-700 dark:text-gray-300 mb-1.5">{label}</label>
-      <div className="relative">
+      <div className="relative group">
         {leftElement && (
           <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
             {leftElement}
@@ -125,7 +125,7 @@ const LoginPage = () => {
        <div className="flex justify-between items-center mb-2">
             <span className="flex items-center gap-2">
               <input type="checkbox" className="h-5 w-5 border-2 rounded-md accent-blue-500 cursor-pointer"/>
-              <label className="text-md font-semibold text-black-500 cursor-pointer">
+              <label className="text-md font-semibold text-black dark:text-white cursor-pointer">
                 Remember Me
               </label>
             </span>
